@@ -363,7 +363,7 @@
                                     </div>
                                 </div> 
                             </div>
-                            <a class="btn" href="">Ask more</a>
+                            <a class="btn" href="contact.html#contact">Ask more</a>
                         </div>
                     </div>
                 </div>
@@ -420,6 +420,19 @@
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         };
+        </script>
+        <script>
+        // Smooth scroll to #services if hash is present on load (fixes mobile jump-to-top issue)
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.location.hash === '#services') {
+                var el = document.getElementById('services');
+                if (el) {
+                    setTimeout(function() {
+                        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 100);
+                }
+            }
+        });
         </script>
     </body>
 </html>
