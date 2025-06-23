@@ -81,7 +81,7 @@ a:focus {
 
 .header.home {
     margin-bottom: 45px;
-    background: linear-gradient(rgba(0, 83, 156, 1), rgba(0, 83, 156, .9), rgba(0, 83, 156, 1)), url(../img/header.jpg);
+    background: linear-gradient(rgba(0, 83, 156, 1), rgba(0, 83, 156, .9), rgba(0, 83, 156, 1)), url(../img/feature4.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -531,7 +531,17 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
+.service .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .service .service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 420px; /* Adjust as needed for your content */
+    height: 100%;
     position: relative;
     width: 100%;
     text-align: center;
