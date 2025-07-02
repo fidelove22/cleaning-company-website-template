@@ -89,5 +89,135 @@ const services = {
       "Quick drying process",
       "Improved indoor air quality"
     ]
+  },
+  highpressure: {
+    title: "High Pressure Cleaning",
+    image: "img/service-1.jpg",
+    description: "Powerful cleaning for stubborn dirt and grime on hard surfaces, driveways, and exteriors.",
+    longDescription: "Our high pressure cleaning service removes tough stains, dirt, and debris from driveways, walkways, walls, and other hard surfaces. Ideal for both residential and commercial properties.",
+    features: [
+      "Removes stubborn dirt and grime",
+      "Suitable for driveways, walkways, and exteriors",
+      "Eco-friendly cleaning methods",
+      "Quick and efficient service",
+      "Restores original appearance"
+    ]
+  },
+  waste: {
+    title: "Waste Management Solutions",
+    image: "img/service-2.jpg",
+    description: "Comprehensive waste collection, sorting, and disposal for homes and businesses.",
+    longDescription: "We provide reliable waste management solutions including collection, sorting, recycling, and safe disposal for residential and commercial clients.",
+    features: [
+      "Regular waste collection",
+      "Sorting and recycling",
+      "Safe disposal methods",
+      "Custom schedules available",
+      "Eco-friendly focus"
+    ]
+  },
+  garbage: {
+    title: "Garbage Collection & Disposal",
+    image: "img/service-3.jpg",
+    description: "Reliable garbage collection and safe disposal services for all types of waste.",
+    longDescription: "Our team ensures timely and safe collection and disposal of all types of garbage, helping you maintain a clean and healthy environment.",
+    features: [
+      "Residential and commercial service",
+      "Safe and hygienic disposal",
+      "Flexible pickup schedules",
+      "Handles all waste types",
+      "Licensed and insured"
+    ]
+  },
+  electronics: {
+    title: "Electronic Equipment Cleaning",
+    image: "img/service-4.jpg",
+    description: "Specialized cleaning for computers, servers, and sensitive electronic devices.",
+    longDescription: "We use safe, non-abrasive methods to clean computers, servers, and other electronic equipment, reducing dust and improving performance.",
+    features: [
+      "Non-abrasive cleaning methods",
+      "Reduces dust and allergens",
+      "Improves equipment performance",
+      "Safe for sensitive devices",
+      "Trained technicians"
+    ]
+  },
+  landscaping: {
+    title: "Landscaping & Gardening",
+    image: "img/landscaping.png",
+    description: "Design, maintenance, and beautification of gardens and outdoor spaces.",
+    longDescription: "Our landscaping and gardening services include design, planting, maintenance, and beautification for homes, offices, and public spaces.",
+    features: [
+      "Garden design and planting",
+      "Lawn care and maintenance",
+      "Tree and shrub trimming",
+      "Seasonal cleanups",
+      "Custom landscaping solutions"
+    ]
+  },
+  renovations: {
+    title: "Renovations, Repairs & Painting",
+    image: "img/service-1.jpg",
+    description: "Professional renovations, repairs, and painting for residential and commercial properties.",
+    longDescription: "We offer a full range of renovation, repair, and painting services to keep your property looking its best.",
+    features: [
+      "Interior and exterior painting",
+      "General repairs",
+      "Remodeling and upgrades",
+      "Quality materials used",
+      "Experienced craftsmen"
+    ]
+  },
+  eventcleaning: {
+    title: "Event Cleaning & Garden Services",
+    image: "img/service-2.jpg",
+    description: "Pre- and post-event cleaning, plus garden care for all types of events.",
+    longDescription: "We provide thorough cleaning before and after events, as well as garden maintenance to ensure your venue looks perfect.",
+    features: [
+      "Pre-event setup cleaning",
+      "Post-event cleanup",
+      "Garden and outdoor care",
+      "Flexible scheduling",
+      "Suitable for all event sizes"
+    ]
+  },
+  windowcleaning: {
+    title: "Window Cleaning & Wall Dusting",
+    image: "img/service-3.jpg",
+    description: "Streak-free window cleaning and thorough wall dusting for a spotless finish.",
+    longDescription: "Our team delivers streak-free window cleaning and detailed wall dusting for homes and businesses.",
+    features: [
+      "Streak-free window cleaning",
+      "Detailed wall dusting",
+      "Safe for all surfaces",
+      "Interior and exterior service",
+      "Flexible appointments"
+    ]
+  },
+  woodpolishing: {
+    title: "Polishing Wooden Floors",
+    image: "img/service-4.jpg",
+    description: "Restore and maintain the shine and durability of your wooden floors.",
+    longDescription: "We use professional equipment and products to polish and protect your wooden floors, enhancing their appearance and longevity.",
+    features: [
+      "Professional floor polishing",
+      "Scratch and stain removal",
+      "Protective finishes applied",
+      "Enhances durability",
+      "Suitable for all wood types"
+    ]
+  },
+  washroomequip: {
+    title: "Provision of Washroom Equipment & Consumables",
+    image: "img/service-1.jpg",
+    description: "Supply and installation of washroom equipment and consumables for hygiene and convenience.",
+    longDescription: "We supply and install a wide range of washroom equipment and consumables, ensuring your facilities are always hygienic and well-stocked.",
+    features: [
+      "Soap and sanitizer dispensers",
+      "Hand dryers and paper towels",
+      "Toilet tissue and holders",
+      "Feminine hygiene bins",
+      "Scheduled restocking"
+    ]
   }
 }; 
